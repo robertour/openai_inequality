@@ -84,10 +84,9 @@ get_lasso_folder <- function(lasso_distribution, response_var) {
 
 load_dataframe <- function(imputed_option, selected_features_binomial, selected_features_counts, response_renames) {
   if (imputed_option == "imputed") {
-    # with imputed data
-    load("data/pipe/1.6_imputed.Rdata")
+    df <- read.csv("data/input/imputed.csv", check.names = FALSE)
   } else {
-    load("data/pipe/1.4_aggregated.Rdata")
+    df <- read.csv("data/input/non_imputed.csv", check.names = FALSE)
   }
   # replace the column names with the replace_labels function
   colnames(df) <- replace_labels(colnames(df))
