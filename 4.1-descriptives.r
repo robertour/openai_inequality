@@ -154,7 +154,48 @@ table(df$employment, useNA = "ifany")
 # print the table with relative frequencies of the employment status
 table(df$employment, useNA = "ifany") / nrow(df) * 100
 
+# Children
 
+# print the table with absolute frequencies of the number of children
+table(df$children, useNA = "ifany")
+
+# median number of children
+cat("The median number of children of the participants is: ", median(df$children, na.rm = TRUE), "\n")
+
+# mean number of children
+cat("The mean number of children of the participants is: ", mean(df$children, na.rm = TRUE), "\n")
+
+# standard deviation of the number of children
+cat("The standard deviation of the number of children of the participants is: ", sd(df$children, na.rm = TRUE), "\n")
+
+# minimum and maximum number of children
+cat("The minimum number of children of the participants is: ", min(df$children, na.rm = TRUE), " and the maximum number is: ", max(df$children, na.rm = TRUE), "\n")
+
+
+# Rural / Urban / Suburban
+
+# number of participants living in urban areas
+cat("Number of participants living in urban areas: ", sum(df$`residence urban` == 1), "\n")
+
+# number of participants living in suburban areas
+cat("Number of participants living in suburban areas: ", sum(df$`residence suburban` == 1), "\n")
+
+# number of participants living in rural areas
+cat("Number of participants living in rural areas: ", sum(df$`residence rural` == 1), "\n")
+
+# Years of schooling (education)
+
+# calculate the median years of schooling of the participants
+cat("The median years of schooling of the participants is: ", median(df$education, na.rm = TRUE), "\n")
+
+# calculate the mean years of schooling of the participants
+cat("The mean years of schooling of the participants is: ", mean(df$education, na.rm = TRUE), "\n")
+
+# calculate the standard deviation of the years of schooling of the participants
+cat("The standard deviation of the years of schooling of the participants is: ", sd(df$education, na.rm = TRUE), "\n")
+
+# calculate the min and max years of schooling of the participants
+cat("The minimum years of schooling of the participants is: ", min(df$education, na.rm = TRUE), " and the maximum years is: ", max(df$education, na.rm = TRUE), "\n")
 
 #4 PLOTS####
 
