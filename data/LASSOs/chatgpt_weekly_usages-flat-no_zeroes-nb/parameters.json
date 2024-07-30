@@ -1,0 +1,1 @@
+{"dependant":["chatgpt_weekly_usages"],"transformation":["flat"],"family":["nb"],"theta":{},"include_zeroes":["no_zeroes"],"nfold":[5],"n_iterations":[1000],"sample_partition":[0.8],"seed":[2023],"n_plots_to_save":[10]}

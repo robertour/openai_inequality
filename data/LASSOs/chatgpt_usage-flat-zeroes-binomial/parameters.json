@@ -1,0 +1,1 @@
+{"dependant":["chatgpt_usage"],"family":["binomial"],"include_zeroes":["zeroes"],"nfold":[10],"n_iterations":[1000],"sample_partition":[0.5],"seed":[2023],"n_plots_to_save":[10]}
