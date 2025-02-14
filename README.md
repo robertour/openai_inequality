@@ -1,4 +1,4 @@
-# Scripts and code corresponding to:
+# Citation:
 
 Kacperski, C., Ulloa, R., Bonnay, D., Kulshrestha, J., Selb, P., & Spitz, A. (2025). Characteristics of ChatGPT users from Germany: Implications for the digital divide from web tracking data. PLOS ONE, 20(1), e0309047. [https://doi.org/10.1371/journal.pone.0309047](https://doi.org/10.1371/journal.pone.0309047)
 
